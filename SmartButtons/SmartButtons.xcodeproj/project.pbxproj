@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAF183BC291C84D2002D7826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF183BB291C84D2002D7826 /* AppDelegate.swift */; };
+		CAF183BE291C84D2002D7826 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF183BD291C84D2002D7826 /* SceneDelegate.swift */; };
+		CAF183C0291C84D2002D7826 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF183BF291C84D2002D7826 /* ViewController.swift */; };
+		CAF183C3291C84D2002D7826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF183C1291C84D2002D7826 /* Main.storyboard */; };
+		CAF183C5291C84D3002D7826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF183C4291C84D3002D7826 /* Assets.xcassets */; };
+		CAF183C8291C84D3002D7826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF183C6291C84D3002D7826 /* LaunchScreen.storyboard */; };
+		CAF183D3291C84D3002D7826 /* SmartButtonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF183D2291C84D3002D7826 /* SmartButtonsTests.swift */; };
+		CAF183DD291C84D3002D7826 /* SmartButtonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF183DC291C84D3002D7826 /* SmartButtonsUITests.swift */; };
+		CAF183DF291C84D3002D7826 /* SmartButtonsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF183DE291C84D3002D7826 /* SmartButtonsUITestsLaunchTests.swift */; };
+		F8B65757291D25DE00A0F154 /* MathsQuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B65756291D25DE00A0F154 /* MathsQuizViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAF183CF291C84D3002D7826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF183B0291C84D2002D7826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF183B7291C84D2002D7826;
+			remoteInfo = SmartButtons;
+		};
+		CAF183D9291C84D3002D7826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF183B0291C84D2002D7826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF183B7291C84D2002D7826;
+			remoteInfo = SmartButtons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAF183B8291C84D2002D7826 /* SmartButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF183BB291C84D2002D7826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAF183BD291C84D2002D7826 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAF183BF291C84D2002D7826 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAF183C2291C84D2002D7826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAF183C4291C84D3002D7826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAF183C7291C84D3002D7826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAF183C9291C84D3002D7826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF183CE291C84D3002D7826 /* SmartButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartButtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF183D2291C84D3002D7826 /* SmartButtonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartButtonsTests.swift; sourceTree = "<group>"; };
+		CAF183D8291C84D3002D7826 /* SmartButtonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartButtonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF183DC291C84D3002D7826 /* SmartButtonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartButtonsUITests.swift; sourceTree = "<group>"; };
+		CAF183DE291C84D3002D7826 /* SmartButtonsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartButtonsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F8B65756291D25DE00A0F154 /* MathsQuizViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathsQuizViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAF183B5291C84D2002D7826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF183CB291C84D3002D7826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF183D5291C84D3002D7826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAF183AF291C84D2002D7826 = {
+			isa = PBXGroup;
+			children = (
+				CAF183BA291C84D2002D7826 /* SmartButtons */,
+				CAF183D1291C84D3002D7826 /* SmartButtonsTests */,
+				CAF183DB291C84D3002D7826 /* SmartButtonsUITests */,
+				CAF183B9291C84D2002D7826 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAF183B9291C84D2002D7826 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAF183B8291C84D2002D7826 /* SmartButtons.app */,
+				CAF183CE291C84D3002D7826 /* SmartButtonsTests.xctest */,
+				CAF183D8291C84D3002D7826 /* SmartButtonsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAF183BA291C84D2002D7826 /* SmartButtons */ = {
+			isa = PBXGroup;
+			children = (
+				CAF183BB291C84D2002D7826 /* AppDelegate.swift */,
+				CAF183BD291C84D2002D7826 /* SceneDelegate.swift */,
+				CAF183BF291C84D2002D7826 /* ViewController.swift */,
+				CAF183C1291C84D2002D7826 /* Main.storyboard */,
+				CAF183C4291C84D3002D7826 /* Assets.xcassets */,
+				CAF183C6291C84D3002D7826 /* LaunchScreen.storyboard */,
+				CAF183C9291C84D3002D7826 /* Info.plist */,
+				F8B65756291D25DE00A0F154 /* MathsQuizViewModel.swift */,
+			);
+			path = SmartButtons;
+			sourceTree = "<group>";
+		};
+		CAF183D1291C84D3002D7826 /* SmartButtonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF183D2291C84D3002D7826 /* SmartButtonsTests.swift */,
+			);
+			path = SmartButtonsTests;
+			sourceTree = "<group>";
+		};
+		CAF183DB291C84D3002D7826 /* SmartButtonsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF183DC291C84D3002D7826 /* SmartButtonsUITests.swift */,
+				CAF183DE291C84D3002D7826 /* SmartButtonsUITestsLaunchTests.swift */,
+			);
+			path = SmartButtonsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAF183B7291C84D2002D7826 /* SmartButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF183E2291C84D3002D7826 /* Build configuration list for PBXNativeTarget "SmartButtons" */;
+			buildPhases = (
+				CAF183B4291C84D2002D7826 /* Sources */,
+				CAF183B5291C84D2002D7826 /* Frameworks */,
+				CAF183B6291C84D2002D7826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartButtons;
+			productName = SmartButtons;
+			productReference = CAF183B8291C84D2002D7826 /* SmartButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAF183CD291C84D3002D7826 /* SmartButtonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF183E5291C84D3002D7826 /* Build configuration list for PBXNativeTarget "SmartButtonsTests" */;
+			buildPhases = (
+				CAF183CA291C84D3002D7826 /* Sources */,
+				CAF183CB291C84D3002D7826 /* Frameworks */,
+				CAF183CC291C84D3002D7826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF183D0291C84D3002D7826 /* PBXTargetDependency */,
+			);
+			name = SmartButtonsTests;
+			productName = SmartButtonsTests;
+			productReference = CAF183CE291C84D3002D7826 /* SmartButtonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAF183D7291C84D3002D7826 /* SmartButtonsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF183E8291C84D3002D7826 /* Build configuration list for PBXNativeTarget "SmartButtonsUITests" */;
+			buildPhases = (
+				CAF183D4291C84D3002D7826 /* Sources */,
+				CAF183D5291C84D3002D7826 /* Frameworks */,
+				CAF183D6291C84D3002D7826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF183DA291C84D3002D7826 /* PBXTargetDependency */,
+			);
+			name = SmartButtonsUITests;
+			productName = SmartButtonsUITests;
+			productReference = CAF183D8291C84D3002D7826 /* SmartButtonsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAF183B0291C84D2002D7826 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					CAF183B7291C84D2002D7826 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					CAF183CD291C84D3002D7826 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = CAF183B7291C84D2002D7826;
+					};
+					CAF183D7291C84D3002D7826 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = CAF183B7291C84D2002D7826;
+					};
+				};
+			};
+			buildConfigurationList = CAF183B3291C84D2002D7826 /* Build configuration list for PBXProject "SmartButtons" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAF183AF291C84D2002D7826;
+			productRefGroup = CAF183B9291C84D2002D7826 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAF183B7291C84D2002D7826 /* SmartButtons */,
+				CAF183CD291C84D3002D7826 /* SmartButtonsTests */,
+				CAF183D7291C84D3002D7826 /* SmartButtonsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAF183B6291C84D2002D7826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF183C8291C84D3002D7826 /* LaunchScreen.storyboard in Resources */,
+				CAF183C5291C84D3002D7826 /* Assets.xcassets in Resources */,
+				CAF183C3291C84D2002D7826 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF183CC291C84D3002D7826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF183D6291C84D3002D7826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAF183B4291C84D2002D7826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B65757291D25DE00A0F154 /* MathsQuizViewModel.swift in Sources */,
+				CAF183C0291C84D2002D7826 /* ViewController.swift in Sources */,
+				CAF183BC291C84D2002D7826 /* AppDelegate.swift in Sources */,
+				CAF183BE291C84D2002D7826 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF183CA291C84D3002D7826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF183D3291C84D3002D7826 /* SmartButtonsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF183D4291C84D3002D7826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF183DF291C84D3002D7826 /* SmartButtonsUITestsLaunchTests.swift in Sources */,
+				CAF183DD291C84D3002D7826 /* SmartButtonsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAF183D0291C84D3002D7826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF183B7291C84D2002D7826 /* SmartButtons */;
+			targetProxy = CAF183CF291C84D3002D7826 /* PBXContainerItemProxy */;
+		};
+		CAF183DA291C84D3002D7826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF183B7291C84D2002D7826 /* SmartButtons */;
+			targetProxy = CAF183D9291C84D3002D7826 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAF183C1291C84D2002D7826 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF183C2291C84D2002D7826 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAF183C6291C84D3002D7826 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF183C7291C84D3002D7826 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAF183E0291C84D3002D7826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAF183E1291C84D3002D7826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAF183E3291C84D3002D7826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartButtons/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.logstake.smartbuttons.app.SmartButtons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAF183E4291C84D3002D7826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartButtons/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.logstake.smartbuttons.app.SmartButtons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAF183E6291C84D3002D7826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.logstake.smartbuttons.app.SmartButtonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartButtons.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartButtons";
+			};
+			name = Debug;
+		};
+		CAF183E7291C84D3002D7826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.logstake.smartbuttons.app.SmartButtonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartButtons.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartButtons";
+			};
+			name = Release;
+		};
+		CAF183E9291C84D3002D7826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.logstake.smartbuttons.app.SmartButtonsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartButtons;
+			};
+			name = Debug;
+		};
+		CAF183EA291C84D3002D7826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.logstake.smartbuttons.app.SmartButtonsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartButtons;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAF183B3291C84D2002D7826 /* Build configuration list for PBXProject "SmartButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF183E0291C84D3002D7826 /* Debug */,
+				CAF183E1291C84D3002D7826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF183E2291C84D3002D7826 /* Build configuration list for PBXNativeTarget "SmartButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF183E3291C84D3002D7826 /* Debug */,
+				CAF183E4291C84D3002D7826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF183E5291C84D3002D7826 /* Build configuration list for PBXNativeTarget "SmartButtonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF183E6291C84D3002D7826 /* Debug */,
+				CAF183E7291C84D3002D7826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF183E8291C84D3002D7826 /* Build configuration list for PBXNativeTarget "SmartButtonsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF183E9291C84D3002D7826 /* Debug */,
+				CAF183EA291C84D3002D7826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAF183B0291C84D2002D7826 /* Project object */;
+}
