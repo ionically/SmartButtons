@@ -7,7 +7,7 @@
 
 import Foundation
 
-
+// class with protocol implementations
 // MARK: This all things we want to do
 protocol MathsQuiz {
     // Add 2 numbers
@@ -17,7 +17,7 @@ protocol MathsQuiz {
     func subtract(_ number1: Int, from number2: Int) -> Int
     
     // absolute of number
-    func abs(_ number: Int) -> Int
+    func absolute(_ number: Int) -> Int
     
     // print table of the number
     func printTable(of number: Int) -> String
@@ -44,22 +44,46 @@ final class MathsQuizViewModel: MathsQuiz { // class extends protocol
         return ans
     }
     
-    func abs(_ number: Int) -> Int {
+    func absolute(_ number: Int) -> Int {
         // TODO: implement the logic here
         // Keep this example handy
-        return 0
+        //this is inbuilt funtion in swift called abs funtion
+        //        if number < 0 {
+        //            return number * -1
+        //        }
+        //        return number
+        let ans = abs(number)
+        return ans
     }
     
     func printTable(of number: Int) -> String {
         // TODO: implement the logic here
-        print("\(number) X 1 = \(number*1)")
-        return ""
+        // example: 3 * 1 = 3 .... 3 * 10 = 30
+        let ans =
+        """
+        3 X 1 = \(number)
+        3 X 2 = \(number * 2)
+        3 X 3 = \(number * 3)
+        3 X 4 = \(number * 4)
+        3 X 5 = \(number * 5)
+        3 X 6 = \(number * 6)
+        3 X 7 = \(number * 7)
+        3 X 8 = \(number * 8)
+        3 X 9 = \(number * 9)
+        3 X 10 = \(number * 10)
+        """
+        return ans
     }
     
     func printQuickTable(of number: Int) -> String {
         // TODO: implement the logic here
         // Use For loop here
-        return ""
+        let ans = ["Started", "Working", "Now", "Finished"]
+        
+        for ans in ans {
+            
+            return ans
+        }
+        
     }
-    
 }
