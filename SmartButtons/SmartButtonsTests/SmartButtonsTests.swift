@@ -39,28 +39,38 @@ final class SmartButtonsTests: XCTestCase {
     }
     func testPrintTable() {
         let ans = viewmodel.printTable(of: 3)
-    let expected =
-    """
-    3 X 1 = 3
-    3 X 2 = 6
-    3 X 3 = 9
-    3 X 4 = 12
-    3 X 5 = 15
-    3 X 6 = 18
-    3 X 7 = 21
-    3 X 8 = 24
-    3 X 9 = 27
-    3 X 10 = 30
-    """
-        XCTAssertEqual(ans, ans)
-
+        var array = [String] ()
+        
+        array.append("3 X 1 = 3")
+        array.append("3 X 2 = 6")
+        array.append("3 X 3 = 9")
+        array.append("3 X 4 = 12")
+        array.append("3 X 5 = 15")
+        array.append("3 X 6 = 18")
+        array.append("3 X 7 = 21")
+        array.append("3 X 8 = 24")
+        array.append("3 X 9 = 27")
+        array.append("3 X 10 = 30")
+        
+        XCTAssertEqual(ans, array)
+        
     }
-    func printQuickTable(of number: Int) -> String {
-        let ans = viewmodel.printQuickTable(of: <#T##Int#>)
-        let ans = ["Started", "Working", "Now", "Finished"]
-
-        for ans in ans {
-              return ans
+    
+    func testQuickTable() {
+        let ans = viewmodel.printQuickTable(of: 2)
+        var array = [String] ()
+        array.append("2 X 1 = 2")
+        array.append("2 X 2 = 4")
+        array.append("2 X 3 = 6")
+        array.append("2 X 4 = 8")
+        array.append("2 X 5 = 10")
+        array.append("2 X 6 = 12")
+        array.append("2 X 7 = 14")
+        array.append("2 X 8 = 16")
+        array.append("2 X 9 = 18")
+        array.append("2 X 10 = 20")
+        
+        XCTAssertEqual(ans, array)
     }
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
@@ -70,4 +80,4 @@ final class SmartButtonsTests: XCTestCase {
     }
 
 }
-// test driven development TDD
+// test driven development TDD aaproach name
