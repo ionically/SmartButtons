@@ -19,6 +19,8 @@
 		CAF183D3291C84D3002D7826 /* SmartButtonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF183D2291C84D3002D7826 /* SmartButtonsTests.swift */; };
 		CAF183DD291C84D3002D7826 /* SmartButtonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF183DC291C84D3002D7826 /* SmartButtonsUITests.swift */; };
 		CAF183DF291C84D3002D7826 /* SmartButtonsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF183DE291C84D3002D7826 /* SmartButtonsUITestsLaunchTests.swift */; };
+		F89240EB2922E8C90014274C /* GreetingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89240EA2922E8C90014274C /* GreetingsViewModel.swift */; };
+		F89240ED2922E9970014274C /* GreetingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89240EC2922E9970014274C /* GreetingsTests.swift */; };
 		F8B65757291D25DE00A0F154 /* MathsQuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B65756291D25DE00A0F154 /* MathsQuizViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +58,8 @@
 		CAF183D8291C84D3002D7826 /* SmartButtonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartButtonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF183DC291C84D3002D7826 /* SmartButtonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartButtonsUITests.swift; sourceTree = "<group>"; };
 		CAF183DE291C84D3002D7826 /* SmartButtonsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartButtonsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F89240EA2922E8C90014274C /* GreetingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsViewModel.swift; sourceTree = "<group>"; };
+		F89240EC2922E9970014274C /* GreetingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsTests.swift; sourceTree = "<group>"; };
 		F8B65756291D25DE00A0F154 /* MathsQuizViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathsQuizViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				F8B65756291D25DE00A0F154 /* MathsQuizViewModel.swift */,
+				F89240EA2922E8C90014274C /* GreetingsViewModel.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				CAF183D2291C84D3002D7826 /* SmartButtonsTests.swift */,
+				F89240EC2922E9970014274C /* GreetingsTests.swift */,
 			);
 			path = SmartButtonsTests;
 			sourceTree = "<group>";
@@ -293,6 +299,7 @@
 				CAF183BC291C84D2002D7826 /* AppDelegate.swift in Sources */,
 				CAF183BE291C84D2002D7826 /* SceneDelegate.swift in Sources */,
 				CACC4C122921C2F6008F37EF /* DateHelper.swift in Sources */,
+				F89240EB2922E8C90014274C /* GreetingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F89240ED2922E9970014274C /* GreetingsTests.swift in Sources */,
 				CAF183D3291C84D3002D7826 /* SmartButtonsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

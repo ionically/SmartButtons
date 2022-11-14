@@ -7,7 +7,7 @@
 
 import Foundation
 
-// class with protocol implementations
+// class with protocol implementationsu
 
 // MARK: This class will help us implement all things we want to do
 final class MathsQuizViewModel: MathsQuiz { // class extends protocol

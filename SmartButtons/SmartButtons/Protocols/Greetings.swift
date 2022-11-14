@@ -24,22 +24,22 @@ protocol Greetings {
     // MARK: getMorningMessage
     // e.g name: Robert
     // return must be "Good Morning Robert"
-    func getMorningMessage(name: String) -> String
+    func getMorningMessage(name: String) -> String//chandni
     
     // MARK: getAfternoonMessage
     // e.g name: Robert
     // return must be "Good Afternoon Robert"
-    func getAfternoonMessage(name: String) -> String
+    func getAfternoonMessage(name: String) -> String//chandni
     
     // MARK: getEveningMessage
     // e.g name: Robert
     // return must be "Good Evening Robert"
-    func getEveningMessage(name: String) -> String
+    func getEveningMessage(name: String) -> String//chandni
     
     // MARK: getNightMessage
     // e.g name: Robert
     // return must be "Good Night Robert"
-    func getNightMessage(name: String) -> String
+    func getNightMessage(name: String) -> String//chandni
     
     // MARK: makeMessage
     // e.g timeIn24HoursFormat: 8, name: Robert
