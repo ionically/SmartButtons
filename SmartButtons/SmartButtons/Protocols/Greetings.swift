@@ -48,6 +48,8 @@ protocol Greetings {
     // return Good Afternoon Robert
     // e.g timeIn24HoursFormat: 21, name: Robert
     // return Good Night Robert
+    // e.g timeIn24HoursFormat: 17, name: Robert
+    // return Good Evening Robert
     func makeMessage(timeIn24HoursFormat: Int, name: String) -> String
     
     // MARK: makeMessageAutomatically
