@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CACC4C122921C2F6008F37EF /* GreetingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACC4C112921C2F6008F37EF /* GreetingsViewModel.swift */; };
+		CACC4C122921C2F6008F37EF /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACC4C112921C2F6008F37EF /* DateHelper.swift */; };
 		CACC4C152921C45E008F37EF /* MathsQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACC4C142921C45E008F37EF /* MathsQuiz.swift */; };
+		CACC4C172921C6EA008F37EF /* Greetings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACC4C162921C6EA008F37EF /* Greetings.swift */; };
 		CAF183BC291C84D2002D7826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF183BB291C84D2002D7826 /* AppDelegate.swift */; };
 		CAF183BE291C84D2002D7826 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF183BD291C84D2002D7826 /* SceneDelegate.swift */; };
 		CAF183C0291C84D2002D7826 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF183BF291C84D2002D7826 /* ViewController.swift */; };
@@ -39,8 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CACC4C112921C2F6008F37EF /* GreetingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsViewModel.swift; sourceTree = "<group>"; };
+		CACC4C112921C2F6008F37EF /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
 		CACC4C142921C45E008F37EF /* MathsQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathsQuiz.swift; sourceTree = "<group>"; };
+		CACC4C162921C6EA008F37EF /* Greetings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greetings.swift; sourceTree = "<group>"; };
 		CAF183B8291C84D2002D7826 /* SmartButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF183BB291C84D2002D7826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAF183BD291C84D2002D7826 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				CACC4C142921C45E008F37EF /* MathsQuiz.swift */,
+				CACC4C162921C6EA008F37EF /* Greetings.swift */,
+				CACC4C112921C2F6008F37EF /* DateHelper.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -130,7 +134,6 @@
 				CAF183C4291C84D3002D7826 /* Assets.xcassets */,
 				CAF183C6291C84D3002D7826 /* LaunchScreen.storyboard */,
 				CAF183C9291C84D3002D7826 /* Info.plist */,
-				CACC4C112921C2F6008F37EF /* GreetingsViewModel.swift */,
 			);
 			path = SmartButtons;
 			sourceTree = "<group>";
@@ -285,10 +288,11 @@
 			files = (
 				F8B65757291D25DE00A0F154 /* MathsQuizViewModel.swift in Sources */,
 				CAF183C0291C84D2002D7826 /* ViewController.swift in Sources */,
+				CACC4C172921C6EA008F37EF /* Greetings.swift in Sources */,
 				CACC4C152921C45E008F37EF /* MathsQuiz.swift in Sources */,
 				CAF183BC291C84D2002D7826 /* AppDelegate.swift in Sources */,
 				CAF183BE291C84D2002D7826 /* SceneDelegate.swift in Sources */,
-				CACC4C122921C2F6008F37EF /* GreetingsViewModel.swift in Sources */,
+				CACC4C122921C2F6008F37EF /* DateHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
