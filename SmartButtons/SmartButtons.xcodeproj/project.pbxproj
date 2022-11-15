@@ -22,6 +22,8 @@
 		F89240EB2922E8C90014274C /* GreetingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89240EA2922E8C90014274C /* GreetingsViewModel.swift */; };
 		F89240ED2922E9970014274C /* GreetingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89240EC2922E9970014274C /* GreetingsTests.swift */; };
 		F8B65757291D25DE00A0F154 /* MathsQuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B65756291D25DE00A0F154 /* MathsQuizViewModel.swift */; };
+		F8C6C0932923F5E70011B8F9 /* DateHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C6C0922923F5E70011B8F9 /* DateHelperTests.swift */; };
+		F8C6C0952923F63A0011B8F9 /* DateHelperViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C6C0942923F63A0011B8F9 /* DateHelperViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		F89240EA2922E8C90014274C /* GreetingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsViewModel.swift; sourceTree = "<group>"; };
 		F89240EC2922E9970014274C /* GreetingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsTests.swift; sourceTree = "<group>"; };
 		F8B65756291D25DE00A0F154 /* MathsQuizViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathsQuizViewModel.swift; sourceTree = "<group>"; };
+		F8C6C0922923F5E70011B8F9 /* DateHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelperTests.swift; sourceTree = "<group>"; };
+		F8C6C0942923F63A0011B8F9 /* DateHelperViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelperViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,7 @@
 			children = (
 				F8B65756291D25DE00A0F154 /* MathsQuizViewModel.swift */,
 				F89240EA2922E8C90014274C /* GreetingsViewModel.swift */,
+				F8C6C0942923F63A0011B8F9 /* DateHelperViewModel.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 			children = (
 				CAF183D2291C84D3002D7826 /* SmartButtonsTests.swift */,
 				F89240EC2922E9970014274C /* GreetingsTests.swift */,
+				F8C6C0922923F5E70011B8F9 /* DateHelperTests.swift */,
 			);
 			path = SmartButtonsTests;
 			sourceTree = "<group>";
@@ -293,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8B65757291D25DE00A0F154 /* MathsQuizViewModel.swift in Sources */,
+				F8C6C0952923F63A0011B8F9 /* DateHelperViewModel.swift in Sources */,
 				CAF183C0291C84D2002D7826 /* ViewController.swift in Sources */,
 				CACC4C172921C6EA008F37EF /* Greetings.swift in Sources */,
 				CACC4C152921C45E008F37EF /* MathsQuiz.swift in Sources */,
@@ -309,6 +316,7 @@
 			files = (
 				F89240ED2922E9970014274C /* GreetingsTests.swift in Sources */,
 				CAF183D3291C84D3002D7826 /* SmartButtonsTests.swift in Sources */,
+				F8C6C0932923F5E70011B8F9 /* DateHelperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,7 +16,7 @@ protocol DateHelper {
     func getWeekDays() -> [String]
     
     // MARK: getWeekDays
-    // returns January February ...... all 12 months name
+    // returns January February ...... all 12 months name //chandni
     func getMonths() -> [String]
     
     // MARK: getTodaysDate
