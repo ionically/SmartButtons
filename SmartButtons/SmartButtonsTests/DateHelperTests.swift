@@ -23,8 +23,13 @@ final class DateHelperTests: XCTestCase { //this class extends
         print(viewmodel.getWeekDays())
         print(viewmodel.getWeekDaysNew())
         print(viewmodel.getWeekDaysNew1())
+        print(viewmodel.getMonths())
         print(viewmodel.getDate())
         print(viewmodel.getTodaysDateWithMonthAndYearOnly())
+        print(viewmodel.getTodaysDateYYYYMMDD())
+        print(viewmodel.getThisMonth())
+        print(viewmodel.getDate_ddMMyyyy())
+        print(viewmodel.getCurrentTimeHHmmss())
     }
     
     
