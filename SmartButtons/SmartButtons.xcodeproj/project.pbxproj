@@ -24,6 +24,9 @@
 		F8B65757291D25DE00A0F154 /* MathsQuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B65756291D25DE00A0F154 /* MathsQuizViewModel.swift */; };
 		F8C6C0932923F5E70011B8F9 /* DateHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C6C0922923F5E70011B8F9 /* DateHelperTests.swift */; };
 		F8C6C0952923F63A0011B8F9 /* DateHelperViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C6C0942923F63A0011B8F9 /* DateHelperViewModel.swift */; };
+		F8F4D4CA2927C2E60088B9CF /* LearnQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F4D4C92927C2E60088B9CF /* LearnQuiz.swift */; };
+		F8F4D4CC2927C3350088B9CF /* LearnQuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F4D4CB2927C3350088B9CF /* LearnQuizViewModel.swift */; };
+		F8F4D4CE2927C5EE0088B9CF /* LearnQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F4D4CD2927C5EE0088B9CF /* LearnQuizTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		F8B65756291D25DE00A0F154 /* MathsQuizViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathsQuizViewModel.swift; sourceTree = "<group>"; };
 		F8C6C0922923F5E70011B8F9 /* DateHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelperTests.swift; sourceTree = "<group>"; };
 		F8C6C0942923F63A0011B8F9 /* DateHelperViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelperViewModel.swift; sourceTree = "<group>"; };
+		F8F4D4C92927C2E60088B9CF /* LearnQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnQuiz.swift; sourceTree = "<group>"; };
+		F8F4D4CB2927C3350088B9CF /* LearnQuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnQuizViewModel.swift; sourceTree = "<group>"; };
+		F8F4D4CD2927C5EE0088B9CF /* LearnQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnQuizTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				F8B65756291D25DE00A0F154 /* MathsQuizViewModel.swift */,
+				F8F4D4CB2927C3350088B9CF /* LearnQuizViewModel.swift */,
 				F89240EA2922E8C90014274C /* GreetingsViewModel.swift */,
 				F8C6C0942923F63A0011B8F9 /* DateHelperViewModel.swift */,
 			);
@@ -106,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				CACC4C142921C45E008F37EF /* MathsQuiz.swift */,
+				F8F4D4C92927C2E60088B9CF /* LearnQuiz.swift */,
 				CACC4C162921C6EA008F37EF /* Greetings.swift */,
 				CACC4C112921C2F6008F37EF /* DateHelper.swift */,
 			);
@@ -154,6 +162,7 @@
 				CAF183D2291C84D3002D7826 /* SmartButtonsTests.swift */,
 				F89240EC2922E9970014274C /* GreetingsTests.swift */,
 				F8C6C0922923F5E70011B8F9 /* DateHelperTests.swift */,
+				F8F4D4CD2927C5EE0088B9CF /* LearnQuizTests.swift */,
 			);
 			path = SmartButtonsTests;
 			sourceTree = "<group>";
@@ -299,12 +308,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8B65757291D25DE00A0F154 /* MathsQuizViewModel.swift in Sources */,
+				F8F4D4CC2927C3350088B9CF /* LearnQuizViewModel.swift in Sources */,
 				F8C6C0952923F63A0011B8F9 /* DateHelperViewModel.swift in Sources */,
 				CAF183C0291C84D2002D7826 /* ViewController.swift in Sources */,
 				CACC4C172921C6EA008F37EF /* Greetings.swift in Sources */,
 				CACC4C152921C45E008F37EF /* MathsQuiz.swift in Sources */,
 				CAF183BC291C84D2002D7826 /* AppDelegate.swift in Sources */,
 				CAF183BE291C84D2002D7826 /* SceneDelegate.swift in Sources */,
+				F8F4D4CA2927C2E60088B9CF /* LearnQuiz.swift in Sources */,
 				CACC4C122921C2F6008F37EF /* DateHelper.swift in Sources */,
 				F89240EB2922E8C90014274C /* GreetingsViewModel.swift in Sources */,
 			);
@@ -315,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F89240ED2922E9970014274C /* GreetingsTests.swift in Sources */,
+				F8F4D4CE2927C5EE0088B9CF /* LearnQuizTests.swift in Sources */,
 				CAF183D3291C84D3002D7826 /* SmartButtonsTests.swift in Sources */,
 				F8C6C0932923F5E70011B8F9 /* DateHelperTests.swift in Sources */,
 			);

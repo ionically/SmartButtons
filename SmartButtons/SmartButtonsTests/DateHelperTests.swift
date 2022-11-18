@@ -31,8 +31,4 @@ final class DateHelperTests: XCTestCase { //this class extends
         print(viewmodel.getDate_ddMMyyyy())
         print(viewmodel.getCurrentTimeHHmmss())
     }
-    
-    
-    
-    
 }

@@ -26,3 +26,5 @@ protocol MathsQuiz {
     // print table of the number quickly
     func printQuickTable(of number: Int) -> [String]
 }
+
+
