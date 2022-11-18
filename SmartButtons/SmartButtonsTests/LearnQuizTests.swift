@@ -20,17 +20,17 @@ final class LearnQuizTests: XCTestCase { //this class extends
     }
     
     func testgetmultiply() {
-       
         
-        
-        
+        XCTAssertEqual(viewmodel.multiply(2, 3), 6)
+        XCTAssertEqual(viewmodel.multiply(3, 6), 18)
+        XCTAssertEqual(viewmodel.multiply(10, 20), 200)
     }
     
     func testgetdivison() {
         
-        
-        
-        
+        XCTAssertEqual(viewmodel.division(10, 5), 0)
+        XCTAssertEqual(viewmodel.division(12, 6), 0)
+        XCTAssertEqual(viewmodel.division(10, 20), 2.0)
     }
     
 }

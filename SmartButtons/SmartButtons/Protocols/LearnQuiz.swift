@@ -16,6 +16,6 @@ protocol LearnQuiz {
     func multiply(_ number1: Int, _ number2: Int) -> Int
     
     //divide number2 from number1
-    func division(_ number1: Int, _ number2: Int) -> Int
+    func division(_ number1: Int, _ number2: Int) -> Double
 
 }
