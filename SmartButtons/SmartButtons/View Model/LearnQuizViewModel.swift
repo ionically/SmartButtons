@@ -16,7 +16,7 @@ final class LearnQuizViewModel: LearnQuiz {
     
     func division(_ number1: Int, _ number2: Int) -> Double {
        let ans = number2/number1
-        return Double(ans)
+        return Double((ans))
     }
     
 }
